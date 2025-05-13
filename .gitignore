@@ -1,9 +1,13 @@
+# Build output
 target/
-!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### IntelliJ IDEA ###
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE: IntelliJ IDEA
+.idea/
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
@@ -12,16 +16,16 @@ target/
 *.iml
 *.ipr
 
-### Eclipse ###
-.apt_generated
+# IDE: Eclipse
+.apt_generated/
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
-.sts4-cache
+.sts4-cache/
 
-### NetBeans ###
+# IDE: NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -31,8 +35,8 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# IDE: Visual Studio Code
 .vscode/
 
-### Mac OS ###
+# OS: macOS
 .DS_Store
