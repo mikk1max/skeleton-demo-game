@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="711.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demogame.HelloController">
+   <children>
+      <ImageView fx:id="bg1" fitHeight="400.0" fitWidth="711.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/fon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bg2" fitHeight="400.0" fitWidth="711.0" layoutX="711.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/fon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player" fitHeight="143.0" fitWidth="165.0" layoutX="14.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/player.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy" fitHeight="40.0" fitWidth="36.0" layoutX="757.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/enemy.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="pauseLabel" focusTraversable="false" layoutX="254.0" layoutY="147.0" text="Pause" visible="false">
+         <font>
+            <Font name="Algerian" size="65.0" />
+         </font>
+      </Label>
+      <Label fx:id="LabelLose" focusTraversable="false" layoutX="264.0" layoutY="157.0" text="Lose" visible="false">
+         <font>
+            <Font name="Algerian" size="65.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
